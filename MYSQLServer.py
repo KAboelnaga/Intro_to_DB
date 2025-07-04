@@ -5,11 +5,10 @@ from mysql.connector import Error
 
 def create_database():
     try:
-        # Connect to MySQL server (adjust user/password/host if needed)
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="your_password_here"
+            user="aboelnaga",
+            password="1234"
         )
 
         if connection.is_connected():
